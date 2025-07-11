@@ -57,7 +57,7 @@ border: none;
 
 /* header */
 header{
-    background-image: url(images/background.png);
+    background-image: url(background.png);
 }
 
 /* Nav styles */
@@ -249,13 +249,16 @@ footer ul {
   margin: 0;
 }
 
-footer ul li {
+footer a{
+    text-decoration: none;
+}
+footer ul li a{
   font-size: 16px;
   cursor: pointer;
   color: #8e8ea0;
   transition: color 0.3s;
 }
 
-footer ul li:hover {
+footer ul li a:hover {
   color: #4a3aff;
 }
