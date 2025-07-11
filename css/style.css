@@ -249,14 +249,11 @@ footer ul {
   margin: 0;
 }
 
-footer a{
-    text-decoration: none;
-}
 footer ul li a{
   font-size: 16px;
   cursor: pointer;
   color: #8e8ea0;
-  transition: color 0.3s;
+  text-decoration: none;
 }
 
 footer ul li a:hover {
