@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
+body{
+    background-color: rgba(255, 255, 255, 0.5);
+}
 /* fonts */
 .raleway-normal {
   font-family: "Raleway", sans-serif;
@@ -212,4 +214,26 @@ list-style: none;
   padding: 14px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+
+/* footer */
+footer{
+    margin-top: 60px;
+}
+footer h1{
+ color: #4E47FF; 
+ font-weight: 900; 
+ font-size: 48px;
+ text-align: center;
+}
+
+footer .sub-title{
+    text-align: center;
+    margin: 20px 100px;
+}
+
+footer ul li{
+    list-style: none;
+    display: flex;
 }
