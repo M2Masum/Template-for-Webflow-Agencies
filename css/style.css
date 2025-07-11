@@ -220,6 +220,7 @@ list-style: none;
 /* footer */
 footer {
   text-align: center;
+  margin: 20px 50px;
   padding: 60px 20px;
   background-color: #ffffff;
   font-family: 'Inter', sans-serif;
